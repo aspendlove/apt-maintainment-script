@@ -12,4 +12,4 @@ sudo apt autoremove
 
 sudo apt autoclean
 
-to install you just need to make sure that both files you download have executable permissions (right click, properties, permissions, allow executing file as program or something similar for most distros) Then double click on the install.sh file and run in terminal. You will now be able to open a terminal and type in maintain to run the script
+to install you just need to make sure that the files "maintain" and "install.sh" in the folder you have downloaded from this repository have executable permissions (right click, properties, permissions, allow executing file as program or something similar for most distros) Then double click on the install.sh file and run in terminal. You will now be able to open a terminal and type in maintain to run the script
