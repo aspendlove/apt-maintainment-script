@@ -14,4 +14,4 @@ sudo apt autoclean
 
 sudo aptitude purge ~c
 
-to install you just need to make sure that the files "maintain" and "install.sh" in the folder you have downloaded from this repository have executable permissions (right click, properties, permissions, allow executing file as program or something similar for most distros) Then double click on the install.sh file and run in terminal. You will now be able to open a terminal and type in maintain to run the script
+to install you need to make sure that the file install.sh is exectuable (run "chmod a+x instal.sh") and then run "./install.sh" (you need to make sure that you are in the same directory of the downloaded files, to do that you need to run "cd PATH TO DIRECTORY" in your terminal or go into your file manager and navigate to the folder then right click and hit "open in terminal")
