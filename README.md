@@ -14,4 +14,16 @@ sudo apt autoclean
 
 sudo aptitude purge ~c
 
-to install you need to make sure that the file install.sh is exectuable (run "chmod a+x install.sh") and then run "./install.sh" (you need to make sure that you are in the same directory of the downloaded files, to do that you need to run "cd PATH TO DIRECTORY" in your terminal or go into your file manager and navigate to the folder then right click and hit "open in terminal")
+To install run these commands in the terminal
+
+cd ~
+
+cd Downloads
+
+git clone https://github.com/copperly123/apt-maintainment-script.git
+
+cd apt-maintainment-script
+
+chmod a+x install.sh
+
+./install.sh
