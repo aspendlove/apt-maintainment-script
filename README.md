@@ -31,3 +31,7 @@ chmod a+x install.sh
 ./install.sh
 
 These commands will go into your Downloads folder, download this repository, and execute the install script.
+
+---------------------------------------------------------
+
+After the installation you just have to run the command "maintain" in the terminal and the program will run
