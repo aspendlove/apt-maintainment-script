@@ -16,7 +16,7 @@ sudo aptitude purge ~c
 
 ------------------------------------------------------
 
-To install run these commands in the terminal
+To install run these commands in the terminal:
 
 cd ~
 
