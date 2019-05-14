@@ -18,17 +18,17 @@ sudo aptitude purge ~c
 
 To install run these commands in the terminal:
 
-cd ~
+    cd ~
 
-cd Downloads
+    cd Downloads
 
-git clone https://github.com/copperly123/apt-maintainment-script.git
+    git clone https://github.com/copperly123/apt-maintainment-script.git
 
-cd apt-maintainment-script
+    cd apt-maintainment-script
 
-chmod a+x install.sh
+    chmod a+x install.sh
 
-./install.sh
+    ./install.sh
 
 These commands will go into your Downloads folder, download this repository, and execute the install script.
 
