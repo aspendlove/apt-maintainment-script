@@ -17,13 +17,20 @@ chmod a+x maintain
 #ask if you want to install a dependency
 echo "Do you want to isntall the dependency aptitude? (you will need this to use the program)"
 read -p 'yes or no> ' yorn
-if [ "${yorn}" = 'yes' ]
+if [ "$yorn" != 'y' ] && [ "$yorn" != 'n' ] && [ "$yorn" != 'yes' ] [ "$yorn" != 'no' ]
+then
+  echo ''
+  echo 'Error, please respond with "y", "yes", "n" or "no" only'
+  echo "you answered with "'"'"$yorn"'"'
+  exit
+fi
+if [ "${yorn}" = 'yes' ] || [ "${yorn}" = 'y' ]
 then
 	sudo apt install aptitude
 else
   echo '
   '
-  echo 'alright'
+  echo 'alright, continuing without installing'
 fi
 echo 'installing apt-maintainment-script'
 #copy executables to /usr/local/bin
