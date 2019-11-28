@@ -10,8 +10,6 @@ sudo apt full-upgrade
 
 sudo apt autoremove
 
-sudo apt autoclean
-
 sudo aptitude purge ~c
 
 ------------------------------------------------------
