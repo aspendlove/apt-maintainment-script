@@ -2,29 +2,27 @@
 This is a shell script that runs a bunch of apt commands that keep your system up to date and using less space.
 The commands that it runs are:
 
-sudo apt update
+	sudo apt update
 
-sudo apt upgrade
+	sudo apt upgrade
 
-sudo apt full-upgrade
+	sudo apt autoremove
 
-sudo apt autoremove
+And with the optional --purge flag
 
-sudo aptitude purge ~c
+	sudo aptitude purge ~c
 
 ------------------------------------------------------
 
 To install run these commands in the terminal:
 
-    cd ~
-
-    cd Downloads
+    cd ~/Downloads
 
     git clone https://github.com/copperly123/apt-maintainment-script.git
 
     cd apt-maintainment-script
 
-    chmod a+x install.sh
+    chmod +x install.sh
 
     ./install.sh
 
