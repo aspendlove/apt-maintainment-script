@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo apt update
 sudo apt upgrade
-sudo apt full-upgrade
 sudo apt autoremove
-sudo aptitude purge ~c
+
+if [ "$1" = "--purge" ]; then
+	sudo aptitude purge '~c'
+fi
